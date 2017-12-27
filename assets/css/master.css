@@ -1,0 +1,95 @@
+/* Global styles ================================= */
+* { font-family: "Futura LT W01 Book"; }
+.futura-bold {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
+}
+/* =============================================== */
+
+/* Navbar styles ================================= */
+.navbar { border-radius: 0; }
+/* =============================================== */
+
+/* Nav toggle animation ========================== */
+.cover {display:block; width:50px; height:50px; position:absolute; right:0; top:0; z-index:999;}
+.line {width:30px; height:3px; background:#000; position:relative; top:23px; left:10px; transition:ease;}
+.line::before {content:''; left:0; width:30px; height:3px; position:absolute; top:-10px; background-color:#000;}
+.line::after {content:''; left:0; width:30px; height:3px; position:absolute; top:10px; background-color:#000;}
+.line.animate::before {-webkit-animation: mymove .5s forwards; -moz-animation: mymove .5s forwards; -o-animation: mymove .5s forwards; animation: mymove .5s forwards; }
+.line.animate::after {-webkit-animation: mymove2 .5s forwards; -moz-animation: mymove2 .5s forwards; -o-animation: mymove2 .5s forwards; animation: mymove2 .5s forwards;}
+.line.animate {-webkit-animation: mymove3 .2s forwards; -moz-animation: mymove3 .2s forwards; -o-animation: mymove3 .2s forwards; animation: mymove3 .2s forwards;}
+.line.reverse::before {-webkit-animation: mymove4 .5s forwards; -moz-animation: mymove4 .5s forwards; -o-animation: mymove4 .5s forwards; animation: mymove4 .5s forwards;}
+.line.reverse::after {-webkit-animation: mymove5 .5s forwards; -moz-animation: mymove5 .5s forwards; -o-animation: mymove5 .5s forwards; animation: mymove5 .5s forwards;}
+.line.reverse {-webkit-animation: mymove6 .2s forwards; -moz-animation: mymove6 .2s forwards; -o-animation: mymove6 .2s forwards; animation: mymove6 .2s forwards;}
+@keyframes mymove {
+	0% {top:-10px;}
+	50% {top:0;}
+	51% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	100% {transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); top:0;}
+}
+@keyframes mymove2 {
+	0% {top:10px;}
+	50% {top:0;}
+	51% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	100% {transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); top:0;}
+}
+@keyframes mymove3 {
+	99% {width:30px;}
+	100% {width:0px;}
+}
+@keyframes mymove4 {
+	0% {transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); top:0;}
+	50% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	51% {top:0;}
+	100% {top:-10px;}
+}
+@keyframes mymove5 {
+	0% {transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); top:0;}
+	50% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	51% {top:0;}
+	100% {top:10px;}
+}
+@keyframes mymove6 {
+	0% {width:0px;}
+	99% {width:0px;}
+	100% {width:30px;}
+}
+
+@-webkit-keyframes mymove {
+	0% {top:-10px;}
+	50% {top:0;}
+	51% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	100% {transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); top:0;}
+}
+@-webkit-keyframes mymove2 {
+	0% {top:10px;}
+	50% {top:0;}
+	51% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	100% {transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); top:0;}
+}
+@-webkit-keyframes mymove3 {
+	99% {width:30px;}
+	100% {width:0px;}
+}
+@-webkit-keyframes mymove4 {
+	0% {transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); top:0;}
+	50% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	51% {top:0;}
+	100% {top:-10px;}
+}
+@-webkit-keyframes mymove5 {
+	0% {transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); top:0;}
+	50% {transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);}
+	51% {top:0;}
+	100% {top:10px;}
+}
+@-webkit-keyframes mymove6 {
+	0% {width:0px;}
+	99% {width:0px;}
+	100% {width:30px;}
+}
+/* =============================================== */
+
