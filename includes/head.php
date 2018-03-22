@@ -9,18 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="Bulldog Creative Services">
     <!-- Favicon - Default favicon has been placed here -->
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="assets/dist/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- Font Style - Default - Delete if not in use -->
     <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/d4a29dc0-5115-4cd7-aab1-68a7b89e5675.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+    <!-- Compiled css assets -->
+    <link rel="stylesheet" type="text/css" href="../assets/dist/css/master.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
