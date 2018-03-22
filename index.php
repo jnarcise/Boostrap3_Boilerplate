@@ -5,13 +5,13 @@
 
 <div id="owl-demo" class="owl-carousel owl-theme">
     <div class="item">
-      <div class="jumbotron" style="background: url('/assets/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
+      <div class="jumbotron" style="background: url('../assets/dist/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
     </div>
     <div class="item">
-      <div class="jumbotron" style="background: url('/assets/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
+      <div class="jumbotron" style="background: url('../assets/dist/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
     </div>
     <div class="item">
-      <div class="jumbotron" style="background: url('/assets/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
+      <div class="jumbotron" style="background: url('../assets/dist/images/bg-header.jpg') no-repeat; background-size: cover; height: 600px;" alt=""></div>
     </div>
   </div>
 
