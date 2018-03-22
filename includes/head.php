@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>dev.bootstrap3</title>
     <meta name="description" content="">
-    <meta name="Bulldog Creative Services" content="">
+    <meta name="author" content="Bulldog Creative Services">
     <!-- Favicon - Default favicon has been placed here -->
     <link rel="icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
@@ -18,6 +18,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -30,3 +33,4 @@
     <![endif]-->
 </head>
 <body>
+<div class="content">
