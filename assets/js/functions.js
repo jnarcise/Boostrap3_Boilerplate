@@ -30,39 +30,12 @@ $(document).ready(function() {
  })
  $('.stop').on('click', function() {owl.trigger('stop.owl.autoplay')})
 })
-// Nav toggle at 767px for sub-menu
-$(document).ready(function(){
-  $("#chev1").click(function(){
-      $("#sub1").slideToggle();
+
+// If window above 768px (Table/Desktop) fadein dropdown on hover
+if ($(window).width() > 768) {
+  $('ul.nav li.dropdown').on('hover', function() {
+    $(this).find('.dropdown-menu').fadeIn(500);
+  }, function() {
+    $(this).find('.dropdown-menu').fadeOut(500);
   });
-});
-$(document).ready(function(){
-  $("#chev2").click(function(){
-      $("#sub2").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("#chev3").click(function(){
-      $("#sub3").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("#chev4").click(function(){
-      $("#sub4").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("#chev5").click(function(){
-      $("#sub5").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("#chev6").click(function(){
-      $("#sub6").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("#chev7").click(function(){
-      $("#sub7").slideToggle();
-  });
-});
+};
