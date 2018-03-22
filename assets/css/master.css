@@ -1,5 +1,5 @@
 /* Global styles ================================= */
- * {
+body {
      font-family: "Futura LT W01 Book";
 }
  .futura-bold {
@@ -30,16 +30,20 @@
      transition: 0.2s;
      color: #000;
 }
-/* .navbar-nav {
-     float: none;
-     margin: 0;
-     display: table;
-     table-layout: fixed;
+
+/* Remove boostrap default toggle effects*/
+.navbar-default
+.navbar-toggle {
+	border-color: transparent;
+	background: transparent;
 }
- .navbar-nav li ul li {
-     display: none;
-     white-space: nowrap;
-}*/
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+	border-color: transparent;
+	background: transparent;
+}
+
  .navbar-nav li ul li a {
      color: #000;
      letter-spacing: 0;
@@ -47,92 +51,19 @@
  .navbar-nav li ul li a:hover {
      color: #000;
 }
-/*/*/
-/* .sub-menu {
-     font-size: 14px;
-     width: 220px;
-     position: absolute;
-     background: rgba(255, 255, 255, 0.9);
-     padding: 0;
-     z-index: 2;
-}
- .big-menu {
-     column-count: 3;
-     width: 600px;
-}*/
- .sub-menu li {
-     padding: 10px;
-}
-/* .fa-chevron-down {
-     padding-left: 5px;
-     float: right;
-     display: none;
-}
- .fa-chevron-down:before {
-     display: none;
-}*/
- @media screen and (max-width: 1075px) {
+
+@media screen and (max-width: 1075px) {
      .navbar ul li a {
          font-size: 16px;
     }
-     .big-menu {
-         width: 540px;
-    }
 }
-/* @media screen and (max-width: 767px) {
-     .navbar ul li a {
-         text-align: left;
-    }
-     .sub-menu {
-         padding-left: 0;
-         display: none;
-         position: relative;
-         width: 100%;
-    }
-     .navbar-nav {
-         display: block;
-    }
-     .navbar-nav li ul li {
-         display: block;
-    }
-     .fa-chevron-down:before {
-         display: block;
-    }
-     #navbar {
-         padding-left: 0;
-         padding-right: 0;
-    }
-     .navbar-nav li ul li {
-         padding-left: 15px;
-         padding-right: 15px;
-    }
-     .big-menu {
-         column-count: 1;
-    }
-     .navbar-nav li ul li:before {
-         display: none;
-    }
-     .navbar ul li a {
-         font-size: 20px;
-    }
-}*/
- .dropdown-toggle {
-     transition: all 0.3s linear;
-}
-/* @media only screen and (min-width: 768px) {
+
+ @media only screen and (min-width: 768px) {
      .dropdown:hover .dropdown-menu {
          display: block;
     }
-}*/
-/*.fa-chevron-right {
-     transform: rotate(90deg);
 }
-*/
-/*.rotate-90 {
-     transform: rotate(90deg);
-     transition: all 0.3s linear;
-}
-*/
+
 /* =============================================== */
 /* Nav toggle animation ========================== */
  .cover {
